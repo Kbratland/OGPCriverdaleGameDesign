@@ -28,10 +28,14 @@ public class InvenData : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Item")){
+            Debug.Log("collided");
             if(other.gameObject.GetComponent<InvenItem>().eTime >= 1)
-            {invenItems.Add(other.gameObject.GetComponent<InvenItem>());
+            {
+                Debug.Log("eTimed");
+            invenItems.Add(other.gameObject.GetComponent<InvenItem>());
             other.gameObject.GetComponent<InvenItem>().grabbed = true;
-            other.gameObject.SetActive(false);}
+            other.gameObject.SetActive(false);
+            }
         }
     }
 }
