@@ -15,6 +15,7 @@ public class InvenData : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        itemDisplayText.text = "Latest item is " + invenItems[invenItems.Count - 1].itemName;
         Debug.Log(invenItems[invenItems.Count - 1].itemName);
         Debug.Log(invenItems[0].itemName);
        if(Input.GetKeyDown(KeyCode.T)){
