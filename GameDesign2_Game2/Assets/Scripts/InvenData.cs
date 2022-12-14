@@ -20,7 +20,6 @@ public class InvenData : MonoBehaviour
         Debug.Log("Placed");
         invenItems[invenItems.Count - 1].gameObject.SetActive(true);
         Instantiate(invenItems[invenItems.Count - 1].itemPrefab, this.transform.position + this.transform.forward * 4, this.transform.rotation);
-        invenItems[invenItems.Count - 1].gameObject.GetComponent<InvenItem>().grabbed = true;
         invenItems.Remove(invenItems[invenItems.Count - 1]);
        }
     }

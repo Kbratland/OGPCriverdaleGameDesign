@@ -15,19 +15,22 @@ public class InvenItem : MonoBehaviour
     void Start()
     {
         eTime = 0;
+        bool grabbed = false;
     }
     void OnEnable()
     {
         if(grabbed){
             Destroy(this.gameObject);
         }
+        grabbed = false;
         eTime = 0;
-        
+        Debug.Log("enabled");
     }
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log($"Item updating");
         eTime += Time.deltaTime;
     }
     
