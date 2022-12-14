@@ -9,6 +9,7 @@ public class InvenItem : MonoBehaviour
     public int weight;
     public GameObject itemPrefab;
     public float eTime = 0;
+    public bool grabbed = false;
     //public InvenData invenData;
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,9 @@ public class InvenItem : MonoBehaviour
     void OnEnable()
     {
         eTime = 0;
+        if(grabbed){
+            Destroy(this.gameObject);
+        }
     }
 
     // Update is called once per frame

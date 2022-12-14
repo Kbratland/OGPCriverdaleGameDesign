@@ -21,7 +21,6 @@ public class InvenData : MonoBehaviour
         invenItems[invenItems.Count - 1].gameObject.SetActive(true);
         Instantiate(invenItems[invenItems.Count - 1].itemPrefab, this.transform.position + this.transform.forward * 3, this.transform.rotation);
         invenItems[invenItems.Count - 1].gameObject.GetComponent<InvenItem>().grabbed = true;
-        invenItems[invenItems.Count - 1].gameObject.SetActive(false);
         invenItems.Remove(invenItems[invenItems.Count - 1]);
        }
     }
@@ -30,6 +29,7 @@ public class InvenData : MonoBehaviour
         if(other.gameObject.CompareTag("Item")){
             if(other.gameObject.GetComponent<InvenItem>().eTime >= 1)
             {invenItems.Add(other.gameObject.GetComponent<InvenItem>());
+            other.gameObject.GetComponent<InvenItem>().grabbed = true;
             other.gameObject.SetActive(false);}
         }
     }
