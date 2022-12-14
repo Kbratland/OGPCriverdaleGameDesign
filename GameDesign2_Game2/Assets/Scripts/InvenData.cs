@@ -19,6 +19,7 @@ public class InvenData : MonoBehaviour
        if(Input.GetKeyDown(KeyCode.T)){
         Debug.Log("Placed");
         invenItems[invenItems.Count - 1].gameObject.SetActive(true);
+        invenItems[invenItems.Count -1].gameObject.GetComponent<InvenItem>().enabled = true;
         Instantiate(invenItems[invenItems.Count - 1].itemPrefab, this.transform.position + this.transform.forward * 4, this.transform.rotation);
         invenItems.Remove(invenItems[invenItems.Count - 1]);
        }

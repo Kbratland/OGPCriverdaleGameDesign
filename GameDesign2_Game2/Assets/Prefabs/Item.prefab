@@ -130,7 +130,7 @@ MonoBehaviour:
   icon: {fileID: 0}
   weight: 0
   itemPrefab: {fileID: 2291820107976047173}
-  eTime: 0
+  eTime: 1
   grabbed: 0
 --- !u!65 &7167018018382305023
 BoxCollider:

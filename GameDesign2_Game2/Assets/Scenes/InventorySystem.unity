@@ -638,6 +638,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 346445457421884304, guid: 38a0358f033b64f699655faa1ad04a8e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f242c8c5f5f1048d190c5a816cf856c4, type: 2}
     - target: {fileID: 1478867957755027711, guid: 38a0358f033b64f699655faa1ad04a8e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -700,8 +704,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 265225946872080168, guid: 5b87faa8ff9254450baddc7b1782ae85, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.61605066
+      objectReference: {fileID: 0}
+    - target: {fileID: 265225946872080168, guid: 5b87faa8ff9254450baddc7b1782ae85, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.61605066
+      objectReference: {fileID: 0}
+    - target: {fileID: 265225946872080168, guid: 5b87faa8ff9254450baddc7b1782ae85, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.61605066
+      objectReference: {fileID: 0}
+    - target: {fileID: 265225946872080168, guid: 5b87faa8ff9254450baddc7b1782ae85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.8358
+      value: 2.7505
       objectReference: {fileID: 0}
     - target: {fileID: 265225946872080168, guid: 5b87faa8ff9254450baddc7b1782ae85, type: 3}
       propertyPath: m_LocalPosition.y
@@ -709,7 +725,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 265225946872080168, guid: 5b87faa8ff9254450baddc7b1782ae85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.107
+      value: 16.064
       objectReference: {fileID: 0}
     - target: {fileID: 265225946872080168, guid: 5b87faa8ff9254450baddc7b1782ae85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -743,5 +759,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemBig
       objectReference: {fileID: 0}
+    - target: {fileID: 1433667828314610759, guid: 5b87faa8ff9254450baddc7b1782ae85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c0b2a7d4fbf54f21a920a77e986c6de, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b87faa8ff9254450baddc7b1782ae85, type: 3}
