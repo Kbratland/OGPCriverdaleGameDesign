@@ -18,10 +18,11 @@ public class InvenItem : MonoBehaviour
     }
     void OnEnable()
     {
-        eTime = 0;
         if(grabbed){
             Destroy(this.gameObject);
         }
+        eTime = 0;
+        
     }
 
     // Update is called once per frame

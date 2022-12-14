@@ -15,12 +15,11 @@ public class InvenData : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        itemDisplayText.text = "Latest item is " + invenItems[invenItems.Count - 1].itemName;
-        Debug.Log(invenItems[invenItems.Count - 1].itemName);
-        Debug.Log(invenItems[0].itemName);
+        invenDisplay();
        if(Input.GetKeyDown(KeyCode.T)){
+        Debug.Log("Placed");
         invenItems[invenItems.Count - 1].gameObject.SetActive(true);
-        Instantiate(invenItems[invenItems.Count - 1].itemPrefab, this.transform.position + this.transform.forward * 3, this.transform.rotation);
+        Instantiate(invenItems[invenItems.Count - 1].itemPrefab, this.transform.position + this.transform.forward * 4, this.transform.rotation);
         invenItems[invenItems.Count - 1].gameObject.GetComponent<InvenItem>().grabbed = true;
         invenItems.Remove(invenItems[invenItems.Count - 1]);
        }
@@ -28,14 +27,17 @@ public class InvenData : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Item")){
-            Debug.Log("collided");
             if(other.gameObject.GetComponent<InvenItem>().eTime >= 1)
             {
-                Debug.Log("eTimed");
             invenItems.Add(other.gameObject.GetComponent<InvenItem>());
             other.gameObject.GetComponent<InvenItem>().grabbed = true;
             other.gameObject.SetActive(false);
             }
+        }
+    }
+    void invenDisplay(){
+        if ((invenItems.Count) > 0){
+            itemDisplayText.text = "Latest item is " + invenItems[invenItems.Count - 1].itemName;
         }
     }
 }
