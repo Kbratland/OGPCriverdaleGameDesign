@@ -24,7 +24,7 @@ public class InvenItem : MonoBehaviour
         }
         grabbed = false;
         eTime = 0;
-        Debug.Log("enabled");
+        // Debug.Log("enabled");
     }
 
     // Update is called once per frame
