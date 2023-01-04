@@ -30,7 +30,7 @@ public class InvenItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log($"Item updating");
+        // Debug.Log($"Item updating");
         eTime += Time.deltaTime;
     }
     

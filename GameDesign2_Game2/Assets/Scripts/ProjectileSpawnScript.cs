@@ -10,6 +10,7 @@ public class ProjectileSpawnScript : MonoBehaviour
     public float a;
     public float b;
     public float c;
+    public bool started = true;
     void Start()
     {
         
@@ -18,13 +19,17 @@ public class ProjectileSpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(eTime > 4f)
+        eTime += Time.deltaTime;
+        if(started)
         {
-            a = Random.Range(-2f,2f);
-             b = Random.Range(-2f,2f);
-             c = Random.Range(-2f,2f);
-            Instantiate(Projectile, this.transform.position + this.transform.up * 2 + new Vector3(a,b,c), this.transform.rotation);
-            eTime = 0;
+            if(eTime > 4f)
+            {
+                a = Random.Range(-2f,2f);
+                b = Random.Range(-2f,2f);
+                c = Random.Range(-2f,2f);
+                Instantiate(Projectile, this.transform.position + this.transform.up * 2 + new Vector3(a,b,c), this.transform.rotation);
+                eTime = 0;
+            }
         }
     }
 }
