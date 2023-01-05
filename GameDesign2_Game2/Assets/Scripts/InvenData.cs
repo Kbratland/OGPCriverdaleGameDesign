@@ -6,20 +6,18 @@ public class InvenData : MonoBehaviour
 {
     public List <InvenItem> invenItems = new List<InvenItem>();
     public TMP_Text itemDisplayText;
-    public int itemCount;
     // Start is called before the first frame update
     void Start()
     {
-        
+        itemDisplayText.text = "No items";
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Debug.Log(invenItems[invenItems.Count]);
         invenDisplay();
        if(Input.GetKeyDown(KeyCode.T)){
-        itemDisplayText.text = "";
+        Debug.Log("Placed");
         invenItems[invenItems.Count - 1].gameObject.SetActive(true);
         invenItems[invenItems.Count -1].gameObject.GetComponent<InvenItem>().enabled = true;
         Instantiate(invenItems[invenItems.Count - 1].itemPrefab, this.transform.position + this.transform.forward * 4, this.transform.rotation);
@@ -38,12 +36,11 @@ public class InvenData : MonoBehaviour
         }
     }
     void invenDisplay(){
-        if ((invenItems.Count) != 0){
+        if ((invenItems.Count) > 0){
             itemDisplayText.text = "Latest item is " + invenItems[invenItems.Count - 1].itemName;
         }
         else{
-            itemDisplayText.text = "";
+            itemDisplayText.text = "no items";
         }
-
     }
 }

@@ -50,7 +50,7 @@
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
-     <Compile Include="Assets/Scripts/InventoryItem.cs" />
+     <Compile Include="Assets/InventoryItem.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
@@ -65,12 +65,10 @@
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
-     <Compile Include="Assets/Scripts/ProjectileScript.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
-     <Compile Include="Assets/Scripts/ProjectileSpawnScript.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
@@ -85,6 +83,7 @@
      <Compile Include="Assets/Scripts/generationT.cs" />
      <Compile Include="Assets/Scripts/DialogueBase.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+     <Compile Include="Assets/inventorySlot.cs" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
@@ -333,7 +332,7 @@
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -681,58 +680,58 @@
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

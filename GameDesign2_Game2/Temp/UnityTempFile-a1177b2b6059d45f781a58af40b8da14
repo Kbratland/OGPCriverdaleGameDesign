@@ -1,13 +1,13 @@
 Search Paths:9
 /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Managed
 /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Managed/UnityEngine
-/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Assets
-/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Assets/../Library/ScriptAssemblies/
-/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM
-/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet
-/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip
-/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc
-/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom
+/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Assets
+/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Assets/../Library/ScriptAssemblies/
+/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM
+/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet
+/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip
+/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc
+/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom
 /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll:32
 UnityEditor.Sysroot
 UnityEditor.MPE.ChannelClient
