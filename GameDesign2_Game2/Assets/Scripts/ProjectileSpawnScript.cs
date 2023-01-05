@@ -10,6 +10,7 @@ public class ProjectileSpawnScript : MonoBehaviour
     public float a;
     public float b;
     public float c;
+    public float delay;
     public bool started = true;
     void Start()
     {
@@ -22,12 +23,12 @@ public class ProjectileSpawnScript : MonoBehaviour
         eTime += Time.deltaTime;
         if(started)
         {
-            if(eTime > 4f)
+            if(eTime > delay)
             {
                 a = Random.Range(-2f,2f);
                 b = Random.Range(-2f,2f);
                 c = Random.Range(-2f,2f);
-                Instantiate(Projectile, this.transform.position + this.transform.up * 2 + new Vector3(a,b,c), this.transform.rotation);
+                Instantiate(Projectile, this.transform.position + this.transform.up * 4 + new Vector3(a,b,c), this.transform.rotation);
                 eTime = 0;
             }
         }

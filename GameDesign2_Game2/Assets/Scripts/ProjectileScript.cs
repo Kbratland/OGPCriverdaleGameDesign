@@ -8,8 +8,9 @@ public class ProjectileScript : MonoBehaviour
     public float radius = 20f;
     public GameObject player;
     Rigidbody RB;
-    public int speed = 4;
+    public int speed;
     public bool started = true;
+    public bool prefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,8 +26,11 @@ public class ProjectileScript : MonoBehaviour
             started = true;
         }
         transform.LookAt(player.transform);
-        eTime += Time.deltaTime;
-        if(eTime > 5f && eTime < 5.25f)
+        if(!prefab)
+        {
+            eTime += Time.deltaTime;
+        }
+        if(eTime > 5f && Vector3.Distance(transform.position, player.transform.position) <= radius)
         {
             RB.AddForce(transform.forward * speed);
         }

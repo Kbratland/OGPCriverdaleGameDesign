@@ -21,6 +21,7 @@ public class FirstPersonController : MonoBehaviour
     #region Camera Movement Variables
 
     public Camera playerCamera;
+    // public healthScript health;
 
     public float fov = 60f;
     public bool invertCamera = false;
@@ -151,6 +152,7 @@ public class FirstPersonController : MonoBehaviour
 
     void Start()
     {
+        // health = GetComponent<healthScript>();
         if(lockCursor)
         {
             Cursor.lockState = CursorLockMode.Locked;
@@ -736,6 +738,15 @@ public class FirstPersonController : MonoBehaviour
             SerFPC.ApplyModifiedProperties();
         }
     }
+    // void OnCollisionEnter(Collision other)
+    // {
+    //     if(other.gameObject.tag == "projectile")
+    //     {
+    //         Destroy(other.gameObject);
+    //         health.health -= 25;
+    //     }
+
+    // }
 
 }
 

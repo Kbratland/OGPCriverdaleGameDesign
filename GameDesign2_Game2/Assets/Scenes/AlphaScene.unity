@@ -523,6 +523,7 @@ MonoBehaviour:
   a: 0
   b: 0
   c: 0
+  delay: 0.25
   started: 1
 --- !u!65 &915234377
 BoxCollider:
@@ -837,6 +838,31 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
   m_PrefabInstance: {fileID: 766740837}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1209889179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209889178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ad43f659e26d461b807c3b52958ab11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1209889184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209889178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a7a603b1aef248dfa0fa98e9eb7c494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstPersonController: {fileID: 0}
 --- !u!1001 &1543060600
 PrefabInstance:
   m_ObjectHideFlags: 0
