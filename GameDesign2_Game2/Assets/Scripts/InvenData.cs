@@ -9,7 +9,7 @@ public class InvenData : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        itemDisplayText.text = "No items";
     }
 
     // Update is called once per frame
@@ -38,6 +38,9 @@ public class InvenData : MonoBehaviour
     void invenDisplay(){
         if ((invenItems.Count) > 0){
             itemDisplayText.text = "Latest item is " + invenItems[invenItems.Count - 1].itemName;
+        }
+        else{
+            itemDisplayText.text = "no items";
         }
     }
 }
