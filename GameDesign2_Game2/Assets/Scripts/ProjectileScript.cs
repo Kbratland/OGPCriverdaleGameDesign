@@ -10,7 +10,7 @@ public class ProjectileScript : MonoBehaviour
     Rigidbody RB;
     public int speed;
     public bool started = true;
-    public bool prefab;
+    public bool prefab = false;
     // Start is called before the first frame update
     void Start()
     {
