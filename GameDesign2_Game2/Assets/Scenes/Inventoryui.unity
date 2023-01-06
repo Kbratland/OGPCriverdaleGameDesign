@@ -1027,6 +1027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6836f5b2444544806984461c87dbcf2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  image: {fileID: 375262856}
   parentAfterDrag: {fileID: 0}
 --- !u!1001 &375717211
 PrefabInstance:
@@ -6429,6 +6430,10 @@ PrefabInstance:
     - target: {fileID: 4639464915861892233, guid: a825a911200d4456b9f66b0da300b240, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135237734578941351, guid: a825a911200d4456b9f66b0da300b240, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a825a911200d4456b9f66b0da300b240, type: 3}
