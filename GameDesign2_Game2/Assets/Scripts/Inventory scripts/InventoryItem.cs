@@ -7,7 +7,8 @@ using UnityEngine.EventSystems;
 
 public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler 
 {
-    public Image image;
+    Image image;
+    public InvenItem invenItem;
     [HideInInspector] public Transform parentAfterDrag;
     public void OnBeginDrag(PointerEventData eventData) {
         Debug.Log("Begin drag");
@@ -26,5 +27,9 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         Debug.Log("End drag");
         transform.SetParent(parentAfterDrag);
         image.raycastTarget = true;
+    }
+    void Update()
+    {
+        image = invenItem.icon;
     }
 }
