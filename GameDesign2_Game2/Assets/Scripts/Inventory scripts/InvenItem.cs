@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InvenItem : MonoBehaviour
 {
     public string itemName;
-    public Sprite icon;
+    public Image icon;
     public int weight;
     public GameObject itemPrefab;
     public float eTime = 0;
@@ -24,13 +25,13 @@ public class InvenItem : MonoBehaviour
         }
         grabbed = false;
         eTime = 0;
-        Debug.Log("enabled");
+        // Debug.Log("enabled");
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log($"Item updating");
+        // Debug.Log($"Item updating");
         eTime += Time.deltaTime;
     }
     
