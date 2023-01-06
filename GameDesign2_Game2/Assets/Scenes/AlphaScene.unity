@@ -1837,7 +1837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2988174065150276373, guid: 6cfefff0f974f42fd90bf582cf51276e, type: 3}
       propertyPath: delay
-      value: 0.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2988174065150276373, guid: 6cfefff0f974f42fd90bf582cf51276e, type: 3}
       propertyPath: Projectile
@@ -1845,7 +1845,7 @@ PrefabInstance:
       objectReference: {fileID: 1797341781}
     - target: {fileID: 2988174065150276373, guid: 6cfefff0f974f42fd90bf582cf51276e, type: 3}
       propertyPath: maxProjectiles
-      value: 250
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 2988174065150276378, guid: 6cfefff0f974f42fd90bf582cf51276e, type: 3}
       propertyPath: m_Name
@@ -1939,9 +1939,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstPersonController: {fileID: 1209889180}
   rb: {fileID: 1209889181}
-  speed: 500
-  duration: 0.5
-  freeze: 0
+  speed: 1500
+  duration: 0.25
+  freeze: 1
 --- !u!1001 &1310416842
 PrefabInstance:
   m_ObjectHideFlags: 0
