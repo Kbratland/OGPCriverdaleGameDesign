@@ -35,7 +35,7 @@ public class ProjectileScript : MonoBehaviour
             RB.AddForce(transform.forward * speed);
         }
     }
-    void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag != "Player"){
             Destroy(this.gameObject);

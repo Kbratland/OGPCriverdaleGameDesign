@@ -1,3 +1,4 @@
+using System.Numerics;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,21 +6,22 @@ using UnityEngine;
 public class DashScript : MonoBehaviour
 {
     public FirstPersonController firstPersonController;
-    Rigidbody rb;
+    public Rigidbody rb;
     float eTime;
     bool dashing;
     public float speed;
-    float duration = 1;
+    public float duration = 0.5f;
+    public bool freeze;
     void Start()
     {
-        firstPersonController = GetComponent<FirstPersonController>();
-        rb = GetComponent<Rigidbody>();
+
     }
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if(Input.GetKeyDown(KeyCode.E) && !dashing)
         {
+            eTime = 0;
             Dash();
             dashing = true;
         }
@@ -27,14 +29,22 @@ public class DashScript : MonoBehaviour
         {
             eTime += Time.deltaTime;
             if( eTime > duration){
-                firstPersonController.enabled = firstPersonController.enabled;
+                firstPersonController.playerCanMove = true;
+                firstPersonController.enableHeadBob = true;
+                if(freeze)
+                {
+                    rb.velocity = UnityEngine.Vector3.zero;
+                }
                 rb.useGravity = true;
+                eTime = 0;
+                dashing = false;
             }
         }
     }
     void Dash()
     {
-        firstPersonController.enabled = !firstPersonController.enabled;
+        firstPersonController.playerCanMove = false;
+        firstPersonController.enableHeadBob = false;
         rb.useGravity = false;
         rb.AddForce(transform.forward * speed);
     }

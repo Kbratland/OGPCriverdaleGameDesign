@@ -11,6 +11,9 @@ public class ProjectileSpawnScript : MonoBehaviour
     public float b;
     public float c;
     public float delay;
+    int projectilesSpawned;
+    public int maxProjectiles = 8;
+    public float multiplier;
     public bool started = true;
     void Start()
     {
@@ -20,15 +23,23 @@ public class ProjectileSpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        eTime += Time.deltaTime;
         if(started)
         {
-            if(eTime > delay)
+            eTime += Time.deltaTime;
+        }
+        if(started)
+        {
+            if(eTime > delay && projectilesSpawned < maxProjectiles)
             {
-                a = Random.Range(-2f,2f);
-                b = Random.Range(-2f,2f);
-                c = Random.Range(-2f,2f);
+                a = Random.Range(-1f,1f);
+                b = Random.Range(-1f,1f);
+                c = Random.Range(-1f,1f);
                 Instantiate(Projectile, this.transform.position + this.transform.up * 4 + new Vector3(a,b,c), this.transform.rotation);
+                eTime = 0;
+                projectilesSpawned += 1;
+            }
+            if(eTime > maxProjectiles * multiplier){
+                projectilesSpawned = 0;
                 eTime = 0;
             }
         }

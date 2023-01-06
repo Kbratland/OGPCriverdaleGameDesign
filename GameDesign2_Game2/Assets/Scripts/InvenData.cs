@@ -19,6 +19,7 @@ public class InvenData : MonoBehaviour
         // Debug.Log(invenItems[invenItems.Count]);
         invenDisplay();
        if(Input.GetKeyDown(KeyCode.T)){
+        itemCount -= 1;
         itemDisplayText.text = "";
         invenItems[invenItems.Count - 1].gameObject.SetActive(true);
         invenItems[invenItems.Count -1].gameObject.GetComponent<InvenItem>().enabled = true;
@@ -28,9 +29,10 @@ public class InvenData : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Item")){
+        if(other.gameObject.CompareTag("Item") && itemCount < 10){
             if(other.gameObject.GetComponent<InvenItem>().eTime >= 1)
             {
+            itemCount += 1;
             invenItems.Add(other.gameObject.GetComponent<InvenItem>());
             other.gameObject.GetComponent<InvenItem>().grabbed = true;
             other.gameObject.SetActive(false);
@@ -39,7 +41,7 @@ public class InvenData : MonoBehaviour
     }
     void invenDisplay(){
         if ((invenItems.Count) != 0){
-            itemDisplayText.text = "Latest item is " + invenItems[invenItems.Count - 1].itemName;
+            itemDisplayText.text = "Latest item is " + invenItems[invenItems.Count - 1].itemName + " You have " + itemCount + " Items";
         }
         else{
             itemDisplayText.text = "";
