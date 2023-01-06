@@ -2810,6 +2810,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3519689184806310152, guid: 8c8127a909f2b4d5e95ca324dc8d2105, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ef7ff3dc784140e68cc97597afc9430, type: 2}
     - target: {fileID: 3837267892243896733, guid: 8c8127a909f2b4d5e95ca324dc8d2105, type: 3}
       propertyPath: m_Name
       value: ProjectileA
