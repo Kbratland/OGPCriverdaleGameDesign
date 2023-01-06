@@ -16,6 +16,9 @@ public class InvenData : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(itemCount<0){
+            itemCount = 0;
+        }
         // Debug.Log(invenItems[invenItems.Count]);
         invenDisplay();
        if(Input.GetKeyDown(KeyCode.T)){

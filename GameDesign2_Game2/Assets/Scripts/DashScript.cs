@@ -37,7 +37,7 @@ public class DashScript : MonoBehaviour
                 }
                 rb.useGravity = true;
                 eTime = 0;
-                dashing = false;
+                
             }
         }
     }
@@ -47,5 +47,11 @@ public class DashScript : MonoBehaviour
         firstPersonController.enableHeadBob = false;
         rb.useGravity = false;
         rb.AddForce(transform.forward * speed);
+    }
+    void OnCollisionEnter(Collision other)
+    {
+        if(other.gameObject.tag == "GROUND"){
+            dashing = false;
+        }
     }
 }
