@@ -375,3 +375,4 @@
 "Assets/Scripts/generationT.cs"
 "Assets/Scripts/healthScript.cs"
 "Assets/Scripts/playerBetterJump.cs"
+"Assets/inventorySlot.cs"
