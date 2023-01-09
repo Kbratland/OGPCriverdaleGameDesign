@@ -9,7 +9,7 @@ public class DashScript : MonoBehaviour
     public Rigidbody rb;
     float eTime;
     bool dashing;
-    public bool grounded;
+    bool grounded = true;
     public float speed;
     public float duration = 0.5f;
     public bool freeze;
@@ -54,6 +54,7 @@ public class DashScript : MonoBehaviour
     {
         if(other.gameObject.tag == "ground"){
             grounded = true;
+            Debug.Log(other.gameObject.tag);
         }
         if(other.gameObject.layer == 3 && dashing){
             grounded = true;
