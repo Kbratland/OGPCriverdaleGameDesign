@@ -44,6 +44,7 @@
      <Compile Include="Assets/Scripts/1stpersoncontrol/CameraFollow.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
+     <Compile Include="Assets/Scripts/Inventory scripts/InvenData.cs" />
      <Compile Include="Assets/Scripts/Inventory scripts/InvenItem.cs" />
      <Compile Include="Assets/Scripts/Inventory scripts/inventorySlot.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
