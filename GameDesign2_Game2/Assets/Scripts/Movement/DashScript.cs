@@ -9,6 +9,7 @@ public class DashScript : MonoBehaviour
     public Rigidbody rb;
     float eTime;
     bool dashing;
+    bool grounded = true;
     public float speed;
     public float duration = 0.5f;
     public bool freeze;
@@ -19,11 +20,12 @@ public class DashScript : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && !dashing)
+        if(Input.GetKeyDown(KeyCode.E) && !dashing && grounded)
         {
             eTime = 0;
             Dash();
             dashing = true;
+            grounded = false;
         }
         if(dashing)
         {
@@ -37,7 +39,7 @@ public class DashScript : MonoBehaviour
                 }
                 rb.useGravity = true;
                 eTime = 0;
-                
+                dashing = false;
             }
         }
     }
@@ -50,8 +52,12 @@ public class DashScript : MonoBehaviour
     }
     void OnCollisionEnter(Collision other)
     {
-        if(other.gameObject.tag == "GROUND"){
-            dashing = false;
+        if(other.gameObject.tag == "ground"){
+            grounded = true;
+            Debug.Log(other.gameObject.tag);
+        }
+        if(other.gameObject.layer == 3 && dashing){
+            grounded = true;
         }
     }
 }

@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Item
   - projectile
+  - ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ground
   - Water
   - UI
   - 
