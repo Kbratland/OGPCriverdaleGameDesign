@@ -86,6 +86,8 @@
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
      <Compile Include="Assets/Scripts/Dialogue/DialogueBase.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+     <Compile Include="Assets/Scripts/Menus/Menu.cs" />
+     <Compile Include="Assets/Menu.cs" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
