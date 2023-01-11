@@ -41,6 +41,7 @@
      <Compile Include="Assets/Scripts/1stpersoncontrol/CursorScript.cs" />
      <Compile Include="Assets/Scripts/Dialogue/EventBase.cs" />
      <Compile Include="Assets/Scripts/Dialogue/AI_Manager.cs" />
+     <Compile Include="Assets/Scripts/Menus/Menu.cs" />
      <Compile Include="Assets/Scripts/1stpersoncontrol/CameraFollow.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
@@ -58,6 +59,7 @@
      <Compile Include="Assets/Imported assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
      <Compile Include="Assets/Scripts/Inventory scripts/InvenDisplay.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
+     <Compile Include="Assets/Scripts/Inventory scripts/Menu.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
@@ -86,8 +88,6 @@
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
      <Compile Include="Assets/Scripts/Dialogue/DialogueBase.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
-     <Compile Include="Assets/Scripts/Menus/Menu.cs" />
-     <Compile Include="Assets/Menu.cs" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
