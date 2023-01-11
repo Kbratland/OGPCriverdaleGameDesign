@@ -615,6 +615,7 @@ GameObject:
   - component: {fileID: 256795720}
   - component: {fileID: 256795719}
   - component: {fileID: 256795718}
+  - component: {fileID: 256795722}
   m_Layer: 0
   m_Name: InvenCube
   m_TagString: Untagged
@@ -713,6 +714,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256795716}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &256795722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256795716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660b1c64e602542e087a2a1a5f8ea2ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invenData: {fileID: 256795718}
 --- !u!224 &289808767 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4639464915861892233, guid: a825a911200d4456b9f66b0da300b240, type: 3}
@@ -2377,7 +2391,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: be4ce60e2c9768c44b9b10b9c5258045, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

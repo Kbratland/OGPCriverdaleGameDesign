@@ -76,6 +76,7 @@
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
      <Compile Include="Assets/Scripts/1stpersoncontrol/healthScript.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
+     <Compile Include="Assets/Scripts/Inventory scripts/InvenPlace.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
      <Compile Include="Assets/Scripts/Movement/playerBetterJump.cs" />
@@ -86,7 +87,6 @@
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
      <Compile Include="Assets/Scripts/Dialogue/DialogueBase.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
-     <Compile Include="Assets/Scripts/Inventory scripts/InvenPlace.cs" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />

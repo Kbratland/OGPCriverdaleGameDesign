@@ -8,7 +8,7 @@ public class InvenPlace : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        invenData = this.gameObject.GetComponent<InvenData>();
     }
 
     // Update is called once per frame
@@ -24,10 +24,10 @@ public class InvenPlace : MonoBehaviour
         {
         invenData.itemCount -= 1;
         invenData.itemDisplayText.text = "";
-        invenData.invenItems[invenItems.Count - 1].gameObject.SetActive(true);
-        invenData.invenItems[invenItems.Count -1].gameObject.GetComponent<InvenItem>().enabled = true;
-        Instantiate(invenItems[invenItems.Count - 1].itemPrefab, this.transform.position + this.transform.forward * 4, this.transform.rotation);
-        invenData.invenItems.Remove(invenItems[invenItems.Count - 1]);
+        invenData.invenItems[invenData.invenItems.Count - 1].gameObject.SetActive(true);
+        invenData.invenItems[invenData.invenItems.Count -1].gameObject.GetComponent<InvenItem>().enabled = true;
+        Instantiate(invenData.invenItems[invenData.invenItems.Count - 1].itemPrefab, this.transform.position + this.transform.forward * 4, this.transform.rotation);
+        invenData.invenItems.Remove(invenData.invenItems[invenData.invenItems.Count - 1]);
         }
        }
     }
