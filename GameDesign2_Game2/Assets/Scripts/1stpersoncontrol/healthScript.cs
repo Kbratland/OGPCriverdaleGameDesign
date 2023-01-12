@@ -21,7 +21,7 @@ public class healthScript : MonoBehaviour
         if(health <= 0)
         {
             print("dead");
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("Death");
         }
     }
     void OnTriggerEnter(Collider other)

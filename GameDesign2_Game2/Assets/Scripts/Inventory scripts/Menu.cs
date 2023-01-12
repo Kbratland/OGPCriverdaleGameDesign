@@ -26,4 +26,9 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("AlphaScene");
     }
+
+    public void GoMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
