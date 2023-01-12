@@ -41,6 +41,7 @@
      <Compile Include="Assets/Scripts/1stpersoncontrol/CursorScript.cs" />
      <Compile Include="Assets/Scripts/Dialogue/EventBase.cs" />
      <Compile Include="Assets/Scripts/Dialogue/AI_Manager.cs" />
+     <Compile Include="Assets/Scripts/Menus/Menu.cs" />
      <Compile Include="Assets/Scripts/1stpersoncontrol/CameraFollow.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
@@ -58,6 +59,7 @@
      <Compile Include="Assets/Imported assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
      <Compile Include="Assets/Scripts/Inventory scripts/InvenDisplay.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
+     <Compile Include="Assets/Menu.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
@@ -87,17 +89,22 @@
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
      <Compile Include="Assets/Scripts/Dialogue/DialogueBase.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
-     <Compile Include="Assets/Menu.cs" />
-     <Compile Include="Assets/Scripts/Menus/Menu.cs" />
+     <Compile Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/MouseLook.cs" />
+     <Compile Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/PlayerMovement.cs" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Water_Shader_WebGl.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
      <None Include="Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Extended.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" />
+     <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Vegetation_Plants_Shader.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Vegetation_Opaque_Shader_VS.shader" />
+     <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Vegetation_Opaque_Shader.shader" />
+     <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Vegetation_Foliage_Shader.shader" />
      <None Include="Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Blend.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
@@ -106,14 +113,22 @@
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+     <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Water_Shader.shader" />
+     <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Vegetation_Flowers_Shader.shader" />
+     <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Rock_Shader_VS.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+     <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Vegetation_Plants_Shader_VS.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+     <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Vegetation_Flowers_Shader_VS.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets/Imported assets/SkySeries Freebie/Hdri setup.txt" />
+     <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Rock_Shader.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/VS_indirect.cginc" />
      <None Include="Assets/Imported assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Vegetation_Foliage_Shader_VS.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
     <Reference Include="UnityEngine">
@@ -692,17 +707,17 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -715,6 +730,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
         <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
@@ -731,64 +749,61 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
         <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Core">
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
         <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
         <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
-      <Project>{b7989538-288c-eacc-f147-a3fb3b6e44be}</Project>
-      <Name>Boxophobic.Utils.Scripts</Name>
+    <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
+      <Project>{4aa78291-3849-5944-0ac9-d6b89a56de45}</Project>
+      <Name>Boxophobic.Utils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj">
       <Project>{bf984464-740a-15e9-8771-ad0ecd44e0cb}</Project>
       <Name>Boxophobic.SkyboxCubemapExtended.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
-      <Project>{4aa78291-3849-5944-0ac9-d6b89a56de45}</Project>
-      <Name>Boxophobic.Utils.Editor</Name>
+    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
+      <Project>{b7989538-288c-eacc-f147-a3fb3b6e44be}</Project>
+      <Name>Boxophobic.Utils.Scripts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
