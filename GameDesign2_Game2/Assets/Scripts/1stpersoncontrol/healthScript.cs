@@ -18,7 +18,7 @@ public class healthScript : MonoBehaviour
     void Update()
     {
         healthText.text = "You have " + health + " Health remaining";
-        if(health <= 0)
+        if(health <=  0)
         {
             print("dead");
             SceneManager.LoadScene("Death");

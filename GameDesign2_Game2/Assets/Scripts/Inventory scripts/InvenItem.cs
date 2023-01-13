@@ -16,7 +16,7 @@ public class InvenItem : MonoBehaviour
     void Start()
     {
         eTime = 0;
-        bool grabbed = false;
+        // bool grabbed = false;
     }
     void OnEnable()
     {
@@ -25,13 +25,13 @@ public class InvenItem : MonoBehaviour
         }
         grabbed = false;
         eTime = 0;
-        Debug.Log("enabled");
+        // Debug.Log("enabled");
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log($"Item updating");
+        // Debug.Log($"Item updating");
         eTime += Time.deltaTime;
     }
     
