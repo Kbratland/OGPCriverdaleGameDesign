@@ -36,23 +36,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledScriptableObject.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledGizmos/StyledLabelGizmo.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledGizmos/StyledLabelGizmo.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs" />
      <None Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -303,11 +303,11 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="unityplastic">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
     <Reference Include="ICSharpCode.NRefactory">
         <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Quit : MonoBehaviour
+using UnityEngine.SceneManagement;
+public class Menu : MonoBehaviour
 {
 
     // Start is called before the first frame update
@@ -17,8 +17,23 @@ public class Quit : MonoBehaviour
         
     }
 
-    void ButtonQuit()
+    public void ButtonQuit()
     {
         Application.Quit();
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene("AlphaScene");
+    }
+
+    public void GoMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
+    public void Gocredits()
+    {
+        SceneManager.LoadScene("Credits");
     }
 }
