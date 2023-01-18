@@ -282,8 +282,8 @@
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Internal\fsOption.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Reflection\fsTypeCache.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Utilities\EnumUtility.cs" />
-     <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Events\MessageListeners\MonoBehaviourMessageListeners\UnityOnCollisionEnter2DMessageListener.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Events\MessageListeners\MonoBehaviourMessageListeners\UnityOnTriggerExitMListener.cs" />
+     <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Events\MessageListeners\MonoBehaviourMessageListeners\UnityOnCollisionEnter2DMessageListener.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Utilities\IInitializable.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Graphs\IGraphElementWithData.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Platforms\AotIncompatibleAttribute.cs" />
@@ -328,9 +328,9 @@
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Cloning\ISpecifiesCloner.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\EditorBinding\Inspector\InspectorToggleLeftAttribute.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\EditorBinding\InspectableAttribute.cs" />
-     <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Connections\ConnectionCollectionBase.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Utilities\ReferenceCollector.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Graphs\GraphsExceptionUtility.cs" />
+     <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Connections\ConnectionCollectionBase.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Serialization\ISerializationDependency.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Reflection\RuntimeCodebase.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Dependencies\FullSerializer\fsObjectAttribute.cs" />
@@ -415,9 +415,9 @@
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Reflection\Optimization\StaticInvokerBase.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Ensure\EnsureThat.ValueTypes.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Events\MessageListeners\UIEventsInterfacesListeners\UnityOnSubmitMessageListener.cs" />
-     <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Converters\fsDictionaryConverter.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Profiling\ProfiledSegment.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Input\PressState.cs" />
+     <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Converters\fsDictionaryConverter.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Cloning\Cloners\ListCloner.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\Variables\VariableKind.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Runtime\VisualScripting.Core\EditorBinding\Typeset.cs" />
@@ -706,25 +706,28 @@
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualScripting.YamlDotNet">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualScripting.IonicZip">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
