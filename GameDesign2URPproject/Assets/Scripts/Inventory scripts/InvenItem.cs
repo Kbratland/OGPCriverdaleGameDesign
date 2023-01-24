@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class InvenItem : MonoBehaviour
 {
     public string itemName;
-    public Image icon;
+    public Sprite icon;
     public int weight;
     public GameObject itemPrefab;
     public float eTime = 0;

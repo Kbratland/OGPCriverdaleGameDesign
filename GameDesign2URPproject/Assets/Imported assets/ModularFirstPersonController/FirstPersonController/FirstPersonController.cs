@@ -21,9 +21,11 @@ public class FirstPersonController : MonoBehaviour
     #region Camera Movement Variables
 
     public Camera playerCamera;
+    
     // public healthScript health;
 
     public float fov = 60f;
+    // public DashScript dashScript;
     public bool invertCamera = false;
     public bool cameraCanMove = true;
     public float mouseSensitivity = 2f;
@@ -152,6 +154,7 @@ public class FirstPersonController : MonoBehaviour
 
     void Start()
     {
+        // dashScript = FindObjectOfType(typeof(DashScript)).DashScript;
         // health = GetComponent<healthScript>();
         if(lockCursor)
         {

@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemName: suzanne
-  icon: {fileID: 3443964466756888572}
+  icon: {fileID: 21300000, guid: f09eae8c0ea04254b90c5386a034a225, type: 3}
   weight: 0
   itemPrefab: {fileID: 2291820107976047173}
   eTime: 1

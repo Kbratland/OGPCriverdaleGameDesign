@@ -34,7 +34,8 @@ public class DashScript : MonoBehaviour
         {
             eTime += Time.deltaTime;
             if( eTime > duration){
-                firstPersonController.playerCanMove = true;
+                // firstPersonController.Vector3.targetVelocity += rb.velocity;
+                // firstPersonController.playerCanMove = true;
                 // firstPersonController.enableHeadBob = true;
                 if(freeze)
                 {
@@ -48,19 +49,19 @@ public class DashScript : MonoBehaviour
     }
     void Dash()
     {
-        firstPersonController.playerCanMove = false;
+        // firstPersonController.playerCanMove = false;
         //  firstPersonController.enableHeadBob = false;
         rb.useGravity = false;
         rb.AddForce(transform.forward * speed);
     }
-    void OnCollisionEnter(Collision other)
-    {
-        if(other.gameObject.tag == "ground"){
-            grounded = true;
-            Debug.Log(other.gameObject.tag);
-        }
-        if(other.gameObject.layer == 3 && dashing){
-            grounded = true;
-        }
-    }
+    // void OnCollisionEnter(Collision other)
+    // {
+    //     if(other.gameObject.tag == "ground"){
+    //         grounded = true;
+    //         Debug.Log(other.gameObject.tag);
+    //     }
+    //     if(other.gameObject.layer == 3 && dashing){
+    //         grounded = true;
+    //     }
+    // }
 }

@@ -36,23 +36,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledGizmos/StyledLabelGizmo.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledScriptableObject.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs" />
      <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs" />
-     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledGizmos/StyledLabelGizmo.cs" />
+     <Compile Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs" />
      <None Include="Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -298,7 +298,7 @@
         <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/PackageCache/com.unity.collab-proxy@1.15.4/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
-        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/PackageCache/com.unity.render-pipelines.core@10.9.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>

@@ -30,6 +30,6 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     }
     void Update()
     {
-        image = invenItem.icon;
+        // image = invenItem.icon;
     }
 }

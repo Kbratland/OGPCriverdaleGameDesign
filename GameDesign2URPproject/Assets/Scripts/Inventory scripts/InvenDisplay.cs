@@ -4,18 +4,16 @@ using UnityEngine;
 
 public class InvenDisplay : MonoBehaviour
 {
-    // public int index;
-    // public InvenData invenData;
-    // Image image;
-    // // Start is called before the first frame update
+    public int indexNum;
+    public InvenData invenData;
+    public List<InvenImageIndex> invenImages = new List<InvenImageIndex>();
     void Start()
     {
-        // image = GetComponent<Image>();
+       
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // image = invenData.invenItems[index];
+        invenImages[0].invenIcon = invenData.invenItems[0].icon;
     }
 }

@@ -14,16 +14,12 @@ public class InvenPlace : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(invenData.itemCount<0){
-            invenData.itemCount = 0;
-        }
         // Debug.Log(invenItems[invenItems.Count]);
         invenData.invenDisplay();
        if(Input.GetKeyDown(KeyCode.T)){
         if(invenData.itemCount >= 0)
         {
         invenData.itemCount -= 1;
-        invenData.itemDisplayText.text = "";
         invenData.invenItems[invenData.invenItems.Count - 1].gameObject.SetActive(true);
         invenData.invenItems[invenData.invenItems.Count -1].gameObject.GetComponent<InvenItem>().enabled = true;
         Instantiate(invenData.invenItems[invenData.invenItems.Count - 1].itemPrefab, this.transform.position + this.transform.forward * 4, this.transform.rotation);
