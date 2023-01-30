@@ -5,6 +5,7 @@ using UnityEngine;
 public class InvenPlace : MonoBehaviour
 {
     public InvenData invenData;
+    public InvenDisplay invenDisplay;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,10 +16,11 @@ public class InvenPlace : MonoBehaviour
     void Update()
     {
         // Debug.Log(invenItems[invenItems.Count]);
-        invenData.invenDisplay();
+        // invenData.invenDisplay();
        if(Input.GetKeyDown(KeyCode.T)){
         if(invenData.itemCount >= 0)
         {
+        invenDisplay.invenImages[invenData.itemCount].invenIcon = null;
         invenData.itemCount -= 1;
         invenData.invenItems[invenData.invenItems.Count - 1].gameObject.SetActive(true);
         invenData.invenItems[invenData.invenItems.Count -1].gameObject.GetComponent<InvenItem>().enabled = true;
