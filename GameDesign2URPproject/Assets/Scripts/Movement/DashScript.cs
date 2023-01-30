@@ -15,7 +15,7 @@ public class DashScript : MonoBehaviour
     public bool freeze;
     void Start()
     {
-
+    
     }
 
     void Update()
@@ -35,8 +35,8 @@ public class DashScript : MonoBehaviour
             eTime += Time.deltaTime;
             if( eTime > duration){
                 // firstPersonController.Vector3.targetVelocity += rb.velocity;
-                // firstPersonController.playerCanMove = true;
-                // firstPersonController.enableHeadBob = true;
+                firstPersonController.playerCanMove = true;
+                firstPersonController.enableHeadBob = true;
                 if(freeze)
                 {
                     rb.velocity = UnityEngine.Vector3.zero;
@@ -49,8 +49,8 @@ public class DashScript : MonoBehaviour
     }
     void Dash()
     {
-        // firstPersonController.playerCanMove = false;
-        //  firstPersonController.enableHeadBob = false;
+        firstPersonController.playerCanMove = false;
+         firstPersonController.enableHeadBob = false;
         rb.useGravity = false;
         rb.AddForce(transform.forward * speed);
     }
