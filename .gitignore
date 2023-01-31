@@ -8826,3 +8826,354 @@ GameDesign2URPproject/Temp/UnityTempFile-d646095e20d644b0890d6534c5f82369
 GameDesign2URPproject/Temp/UnityTempFile-dc88c26e278e048919d18fe8ca3fcec9
 GameDesign2URPproject/Temp/UnityTempFile-e9c6f775fd1d548aea276bd74c932719
 GameDesign2URPproject/Temp/UnityTempFile-ecc3715d6d97b47d2ba68a24d7d130c5
+GameDesign2URPproject/Assembly-CSharp.csproj
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Boxophobic.SkyboxCubemapExtended.Editor.asmdef
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Boxophobic.SkyboxCubemapExtended.Editor.asmdef.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedHub.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedHub.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedShaderGUI.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedShaderGUI.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedWindows.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedWindows.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Version.asset
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Version.asset.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions/Compute Rotation Y.asset
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions/Compute Rotation Y.asset.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Blend.shader
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Blend.shader.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Extended.shader
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Extended.shader.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Blend.unity
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Blend.unity.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Day.unity
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Day.unity.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Night.unity
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Night.unity.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTree.mat
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTree.mat.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTreeVariation.mat
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTreeVariation.mat.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Rock.mat
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Rock.mat.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Terrain.mat
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Terrain.mat.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Night.mat
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Night.mat.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence A.FBX
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence A.FBX.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence B.FBX
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence B.FBX.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree A.FBX
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree A.FBX.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree B.FBX
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree B.FBX.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass A.FBX
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass A.FBX.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass B.FBX
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass B.FBX.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock A.FBX
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock A.FBX.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock B.FBX
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock B.FBX.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Terrain.FBX
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Terrain.FBX.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence A.prefab
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence A.prefab.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence B.prefab
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence B.prefab.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree A.prefab
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree A.prefab.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree B.prefab
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree B.prefab.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass A.prefab
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass A.prefab.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass B.prefab
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass B.prefab.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock A.prefab
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock A.prefab.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock B.prefab
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock B.prefab.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Settings.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Settings/Demo.asset
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Settings/Demo.asset.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Skybox Cubemap Extended.pdf
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Skybox Cubemap Extended/Skybox Cubemap Extended.pdf.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/User.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/User/User.pdf
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/User/User.pdf.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/Boxophobic.Utils.Editor.asmdef
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/Boxophobic.Utils.Editor.asmdef.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/Constants.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/Constants/Constants.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/Constants/Constants.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/SettingsUtils.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/SettingsUtils/LoadSettingsData.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/SettingsUtils/LoadSettingsData.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/SettingsUtils/SaveSettingsData.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/SettingsUtils/SaveSettingsData.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledGUI.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorBanner.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorBanner.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorCategory.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorCategory.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowBanner.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowBanner.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowCategory.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowCategory.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledBannerDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledBannerDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledButtonDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledButtonDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledCategoryDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledCategoryDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledEnumDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledEnumDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIndentDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIndentDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledInteractiveDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledInteractiveDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledLayersDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledLayersDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMaskDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMaskDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMessageDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMessageDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledRangeOptionsDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledRangeOptionsDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledSpaceDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledSpaceDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTextDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTextDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTexturePreviewDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTexturePreviewDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledBannerDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledBannerDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledButtonDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledButtonDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledCategoryDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledCategoryDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledDiffusionMaterialDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledDiffusionMaterialDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEmissiveIntensityDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEmissiveIntensityDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEnumDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEnumDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledIndentDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledIndentDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledInteractiveDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledInteractiveDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledLayersDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledLayersDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMaskDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMaskDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMessageDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMessageDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledOptionsSliderDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledOptionsSliderDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledRemapSliderDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledRemapSliderDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledSpaceDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledSpaceDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureSingleLineDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureSingleLineDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledToggleDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledToggleDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledVectorDrawer.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledVectorDrawer.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMono.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMono/StyledMonoBehaviourEditor.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMono/StyledMonoBehaviourEditor.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMono/StyledScriptableObjectEditor.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/StyledMono/StyledScriptableObjectEditor.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/Version.asset
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Editor/Version.asset.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/SettingsUtils.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledGizmos.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledGizmos/StyledLabelGizmo.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledGizmos/StyledLabelGizmo.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledMono.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledScriptableObject.cs
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledScriptableObject.cs.meta
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Utils.pdf
+GameDesign2URPproject/Assets/Imported assets/BOXOPHOBIC/Utils/Utils.pdf.meta
+GameDesign2URPproject/GameDesign2URPproject.sln
+GameDesign2URPproject/Library/EditorInstance.json
+GameDesign2URPproject/Library/SceneVisibilityState.asset
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Mathematics.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Mathematics.Editor.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Mathematics.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Searcher.Editor.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Searcher.Editor.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Services.Core.Editor.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Timeline.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.Timeline.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+GameDesign2URPproject/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+GameDesign2URPproject/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/UnityEditor.UI.dll
+GameDesign2URPproject/Library/ScriptAssemblies/UnityEditor.UI.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+GameDesign2URPproject/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+GameDesign2URPproject/Library/ScriptAssemblies/UnityEngine.UI.dll
+GameDesign2URPproject/Library/ScriptAssemblies/UnityEngine.UI.pdb
+GameDesign2URPproject/Library/ShaderCache.db
+GameDesign2URPproject/Library/ShaderCache/EditorEncounteredVariants
+GameDesign2URPproject/Library/SourceAssetDB
+GameDesign2URPproject/Logs/ApiUpdaterCheck.txt
+GameDesign2URPproject/Temp/ApiUpdater_CheckMovedFrom90b06c0889ad24c1e991bb0be449e8ac
+GameDesign2URPproject/Temp/CompilationLog.txt
+GameDesign2URPproject/Temp/UnityTempFile-01da83ab46796499280483fb98ce1cc3
+GameDesign2URPproject/Temp/UnityTempFile-17d414cccb20d4a8c9a97bdf0a867ef9
+GameDesign2URPproject/Temp/UnityTempFile-1f5f929d6cca448328912c5f13f85783
+GameDesign2URPproject/Temp/UnityTempFile-2202c7341481041a297e12fba7cfac4c
+GameDesign2URPproject/Temp/UnityTempFile-242514ac167784cf48a44c8d5437f89c
+GameDesign2URPproject/Temp/UnityTempFile-24f803a8efe4143cc9e985459fae6754
+GameDesign2URPproject/Temp/UnityTempFile-368eac80b714a49be81e353a848ce585
+GameDesign2URPproject/Temp/UnityTempFile-3963fa4a68b914cee9ab4fcd8df61573
+GameDesign2URPproject/Temp/UnityTempFile-3b1f4f1d4e67144cb8663a0d71c69936
+GameDesign2URPproject/Temp/UnityTempFile-3ca5668516f9b4cdd9565cec549240e4
+GameDesign2URPproject/Temp/UnityTempFile-46802babd7815441ba87eb4be38cc489
+GameDesign2URPproject/Temp/UnityTempFile-48a8a8058de1b407694dbd5ad8acf225
+GameDesign2URPproject/Temp/UnityTempFile-495df2de84ba947deaa10d21f7a6e766
+GameDesign2URPproject/Temp/UnityTempFile-4c878dc77886e43fbbe515cf886779e1
+GameDesign2URPproject/Temp/UnityTempFile-4dbe368584e114865acd12460866820f
+GameDesign2URPproject/Temp/UnityTempFile-4e5e9816b2ed64eca944f261c1e5c2fd
+GameDesign2URPproject/Temp/UnityTempFile-58f9675db0afc43b292a1a75f01cb64d
+GameDesign2URPproject/Temp/UnityTempFile-5dc06360732ad4a46bfe258518a1491e
+GameDesign2URPproject/Temp/UnityTempFile-5e2aec10b6dd6437dbe556495f537f3d
+GameDesign2URPproject/Temp/UnityTempFile-5f7134f7009954cb1a3d3b58d2cf14d9
+GameDesign2URPproject/Temp/UnityTempFile-6040218747c504d3ba539add3f5397a4
+GameDesign2URPproject/Temp/UnityTempFile-64625860b08334e458915761a4a2b753
+GameDesign2URPproject/Temp/UnityTempFile-6c2b23e21dc2049cba3de4957e0759ca
+GameDesign2URPproject/Temp/UnityTempFile-72812f1525c8442c685e4467e6d3573c
+GameDesign2URPproject/Temp/UnityTempFile-759ec686732a04114b4c29971c9c1fbb
+GameDesign2URPproject/Temp/UnityTempFile-769292ecf7cac40319eaad135ff2c648
+GameDesign2URPproject/Temp/UnityTempFile-83849e519330846ce85b5fd1f88b6576
+GameDesign2URPproject/Temp/UnityTempFile-83c921d23474344baa1c0a9cdc750d1c
+GameDesign2URPproject/Temp/UnityTempFile-85492e1b51c0344f0827c03b6e961a92
+GameDesign2URPproject/Temp/UnityTempFile-87b79dc083cd34e53909fabeb776fb2f
+GameDesign2URPproject/Temp/UnityTempFile-8bdad05dc00214cf5ad54f2fe5518b0d
+GameDesign2URPproject/Temp/UnityTempFile-9be96a78afef744a8a45f07b5391a392
+GameDesign2URPproject/Temp/UnityTempFile-a99b6ffd48a314a7c8b3ebe8a2e0af95
+GameDesign2URPproject/Temp/UnityTempFile-ad04129cbb0274fe7893cce57aa230a9
+GameDesign2URPproject/Temp/UnityTempFile-af17c2424c286463093af50874b5ea76
+GameDesign2URPproject/Temp/UnityTempFile-b109bc6cf8f434281993c61b3ac86782
+GameDesign2URPproject/Temp/UnityTempFile-b9eb3518c30274d93a0d93acf59749aa
+GameDesign2URPproject/Temp/UnityTempFile-c2ce3d89d28074e2a8463ab4e4a0c092
+GameDesign2URPproject/Temp/UnityTempFile-c3614f1375be64ba6b88a3e8e2a2c033
+GameDesign2URPproject/Temp/UnityTempFile-c619e150522aa416e91e8aa76af74ac5
+GameDesign2URPproject/Temp/UnityTempFile-caed0203512e74aa4bb3062c15bad9ad
+GameDesign2URPproject/Temp/UnityTempFile-da051b558c02b41898612b9780f5bc0d
+GameDesign2URPproject/Temp/UnityTempFile-dbfa91efa36e34f81b238fed3c5b8a73
+GameDesign2URPproject/Temp/UnityTempFile-e066460ec1cc7432188ef1b4b6caf4cc
+GameDesign2URPproject/Temp/UnityTempFile-e39868f1fb38a4e339ba59630b8b8cea
+GameDesign2URPproject/Temp/UnityTempFile-e9adfdaacd9fe4829a7368f87c65bcee
+GameDesign2URPproject/Temp/UnityTempFile-ef76a1cc788364ecb9875b210a383132
+GameDesign2URPproject/Temp/UnityTempFile-f3277e8a81e0940c0b5fa387fa1b2a85
+GameDesign2URPproject/Temp/UnityTempFile-f3d13b4a4098d48faab2cdecd6be7f0e
+GameDesign2URPproject/Temp/UnityTempFile-f7b754594647b490992e4c30c246eda6
+GameDesign2URPproject/Temp/UnityTempFile-fba02cbabc8ae4b659762e11bed11fa4
