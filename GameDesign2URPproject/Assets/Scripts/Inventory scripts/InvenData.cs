@@ -7,6 +7,7 @@ public class InvenData : MonoBehaviour
     public List <InvenItem> invenItems = new List<InvenItem>();
 
     public int itemCount;
+    public float weightMax;
     // Start is called before the first frame update
     void Start()
     {
