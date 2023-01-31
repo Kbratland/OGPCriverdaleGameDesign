@@ -14,6 +14,28 @@ public class InvenDisplay : MonoBehaviour
 
     void Update()
     {
-        invenImages[0].invenIcon = invenData.invenItems[0].icon;
+        Display(0);
+        Display(1);
+        Display(2);
+        Display(3);
+        Display(4);
+        Display(5);
+        Display(6);
+    }
+    void Display(int index){
+        if(invenData.invenItems[index].icon != null)
+        {
+            invenImages[index].invenIcon = invenData.invenItems[index].icon;
+            var tempColor = invenImages[index].image.color;
+            tempColor.a = 1f;
+            invenImages[index].image.color = tempColor;
+        }
+        else 
+        {
+            var tempColor = invenImages[index].image.color;
+            tempColor.a = 0f;
+            invenImages[index].image.color = tempColor;
+            invenImages[index].image = null;
+        }
     }
 }

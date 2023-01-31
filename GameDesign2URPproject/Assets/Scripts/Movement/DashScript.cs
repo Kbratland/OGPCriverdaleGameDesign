@@ -5,6 +5,11 @@ using UnityEngine;
 
 public class DashScript : MonoBehaviour
 {
+
+    public ParticleSystem dust;
+    public ParticleSystem dust2;
+    public ParticleSystem dust3;
+    public ParticleSystem dust4;
     public FirstPersonController firstPersonController;
     public Rigidbody rb;
     float eTime;
@@ -34,8 +39,7 @@ public class DashScript : MonoBehaviour
         {
             eTime += Time.deltaTime;
             if( eTime > duration){
-                // firstPersonController.Vector3.targetVelocity += rb.velocity;
-                // firstPersonController.playerCanMove = true;
+                firstPersonController.playerCanMove = true;
                 // firstPersonController.enableHeadBob = true;
                 if(freeze)
                 {
@@ -49,19 +53,17 @@ public class DashScript : MonoBehaviour
     }
     void Dash()
     {
-        // firstPersonController.playerCanMove = false;
+        CreateDust();
+        firstPersonController.playerCanMove = false;
         //  firstPersonController.enableHeadBob = false;
         rb.useGravity = false;
         rb.AddForce(transform.forward * speed);
     }
-    // void OnCollisionEnter(Collision other)
-    // {
-    //     if(other.gameObject.tag == "ground"){
-    //         grounded = true;
-    //         Debug.Log(other.gameObject.tag);
-    //     }
-    //     if(other.gameObject.layer == 3 && dashing){
-    //         grounded = true;
-    //     }
-    // }
+    void CreateDust()
+    {
+        dust.Play();
+        dust2.Play();
+        dust3.Play();
+        dust4.Play();
+    }
 }
