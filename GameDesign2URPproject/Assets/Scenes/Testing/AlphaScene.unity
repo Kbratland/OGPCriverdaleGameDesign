@@ -22147,8 +22147,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dust: {fileID: 368949523}
   dust2: {fileID: 1837218193}
-  dust3: {fileID: 0}
-  dust4: {fileID: 0}
+  dust3: {fileID: 1071862625}
+  dust4: {fileID: 759106962}
   firstPersonController: {fileID: 1209889180}
   rb: {fileID: 1209889181}
   speed: 1500
