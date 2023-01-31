@@ -21,21 +21,20 @@ public class InvenDisplay : MonoBehaviour
         Display(4);
         Display(5);
         Display(6);
+        Display(7);
+        Display(8);
+        Display(9);
+        Display(10);
     }
     void Display(int index){
-        if(invenData.invenItems[index].icon != null)
-        {
+        if (invenData.invenItems.Count > index){
+            //this one exists
             invenImages[index].invenIcon = invenData.invenItems[index].icon;
-            var tempColor = invenImages[index].image.color;
-            tempColor.a = 1f;
-            invenImages[index].image.color = tempColor;
+            invenImages[index].image.color = new Color(1,1,1,1);
         }
-        else 
-        {
-            var tempColor = invenImages[index].image.color;
-            tempColor.a = 0f;
-            invenImages[index].image.color = tempColor;
-            invenImages[index].image = null;
+         else { 
+            invenImages[index].image.color = new Color(0,0,0,0);
+            invenImages[index].invenIcon = null;
         }
     }
 }
