@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class InvenDisplay : MonoBehaviour
 {
     public int indexNum;
     public InvenData invenData;
     public List<InvenImageIndex> invenImages = new List<InvenImageIndex>();
+    public TMP_Text weightDisplay;
     void Start()
     {
        
@@ -14,6 +16,7 @@ public class InvenDisplay : MonoBehaviour
 
     void Update()
     {
+        weightDisplay.text = "";
         Display(0);
         Display(1);
         Display(2);
