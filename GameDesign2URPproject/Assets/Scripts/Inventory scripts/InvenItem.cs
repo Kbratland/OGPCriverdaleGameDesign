@@ -7,7 +7,7 @@ public class InvenItem : MonoBehaviour
 {
     public string itemName;
     public Sprite icon;
-    public int weight;
+    public float weight;
     public GameObject itemPrefab;
     public float eTime = 0;
     public bool grabbed = false;
