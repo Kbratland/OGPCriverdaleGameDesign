@@ -57,6 +57,7 @@
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets/Scripts/Movement/EnemyScript.cs" />
      <Compile Include="Assets/Imported assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
      <Compile Include="Assets/Scripts/Inventory scripts/InvenDisplay.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
