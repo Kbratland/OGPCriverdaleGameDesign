@@ -36,10 +36,10 @@ public class healthScript : MonoBehaviour
     }
     void OnCollisionEnter(Collision other)
     {
-        // if(other.gameObject.tag == "spider")
-        // {
-        //     health -= 5;
-        //     Destroy(other.gameObject);
-        // }
+        if(other.gameObject.tag == "spider")
+        {
+            health -= 5;
+            Destroy(other.gameObject);
+        }
     }
 }

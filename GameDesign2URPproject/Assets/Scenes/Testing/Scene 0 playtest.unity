@@ -16119,6 +16119,14 @@ PrefabInstance:
       propertyPath: Projectile
       value: 
       objectReference: {fileID: 644519919}
+    - target: {fileID: 2988174065150276373, guid: 6cfefff0f974f42fd90bf582cf51276e, type: 3}
+      propertyPath: multiplier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988174065150276373, guid: 6cfefff0f974f42fd90bf582cf51276e, type: 3}
+      propertyPath: maxProjectiles
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 2988174065150276378, guid: 6cfefff0f974f42fd90bf582cf51276e, type: 3}
       propertyPath: m_Name
       value: ProjectileSpawn
@@ -25234,7 +25242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3145301623463740399, guid: ac9c04f989ffe4bfb9ba25d9d54560db, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -19.64
+      value: 13.8
       objectReference: {fileID: 0}
     - target: {fileID: 3145301623463740399, guid: ac9c04f989ffe4bfb9ba25d9d54560db, type: 3}
       propertyPath: m_LocalPosition.z
