@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -29,6 +30,15 @@ public class healthScript : MonoBehaviour
         if(other.gameObject.tag == "projectile")
         {
             health -= 1;
+            Destroy(other.gameObject);
+        }
+        
+    }
+    void OnCollisionEnter(Collision other)
+    {
+        if(other.gameObject.tag == "spider")
+        {
+            health -= 5;
             Destroy(other.gameObject);
         }
     }

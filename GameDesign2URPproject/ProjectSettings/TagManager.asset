@@ -7,7 +7,7 @@ TagManager:
   - Item
   - ground
   - projectile
-  - Enemy
+  - spider
   layers:
   - Default
   - TransparentFX
