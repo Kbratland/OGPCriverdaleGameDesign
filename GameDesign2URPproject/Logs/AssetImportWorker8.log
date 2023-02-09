@@ -1,0 +1,126 @@
+Unity Editor version:    2020.3.24f1 (79c78de19888)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3.1 (Build 21E258)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+49336
+Successfully changed project path to: /Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject
+/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 288.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Assets
+GfxDevice: creating device client; threaded=0
+2023-02-08 13:20:16.125 Unity[3626:25569] iMac preferred device: AMD Radeon Pro 560X (high power)
+2023-02-08 13:20:16.125 Unity[3626:25569] Metal devices available: 1
+2023-02-08 13:20:16.125 Unity[3626:25569] 0: AMD Radeon Pro 560X (high power)
+2023-02-08 13:20:16.125 Unity[3626:25569] Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56626
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.24f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000465 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 51.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.644 seconds
+Domain Reload Profiling:
+	ReloadAssembly (644ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (497ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (199ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000458 seconds.
+Required property 'name' not set (Packages/com.unity.searcher/Tests/Editor/Unity.Searcher.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/Editor/Unity.ShaderGraph.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Tests/Editor/Unity.RenderPipelines.Universal.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Shaders/Unity.RenderPipelines.Universal.Shaders.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Editor/Unity.RenderPipelines.Universal.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Runtime/Unity.RenderPipelines.Universal.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/ShaderLibrary/Unity.RenderPipelines.Universal.ShaderLibrary.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/ShaderGraphLibrary/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.searcher/Editor/Unity.Searcher.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Runtime/Unity.RenderPipelines.Core.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Tests/Editor/Unity.RenderPipelines.Core.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Tests/Runtime/Unity.RenderPipelines.Core.Runtime.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/Editor/Utilities/Unity.ShaderGraph.Utilities.asmdef)
+Required property 'name' not set (Packages/com.unity.nuget.newtonsoft-json/Tests/Editor/Unity.Nuget.NewtonsoftJson.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/ShaderLibrary/Unity.RenderPipelines.Core.ShaderLibrary.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Tests/Runtime/Unity.RenderPipelines.Universal.Runtime.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Editor/Unity.RenderPipelines.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/Tests/Editor/Unity.ShaderGraph.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)

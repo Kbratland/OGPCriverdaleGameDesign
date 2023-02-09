@@ -92,6 +92,7 @@
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
      <Compile Include="Assets/Scripts/Dialogue/DialogueBase.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+     <Compile Include="Assets/SFXscript.cs" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Water_Shader_WebGl.shader" />
@@ -353,7 +354,7 @@
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -704,70 +705,70 @@
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>/Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+        <HintPath>/Users/kbratland25/Documents/VexBot/OGPCriverdaleGameDesign/GameDesign2URPproject/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
