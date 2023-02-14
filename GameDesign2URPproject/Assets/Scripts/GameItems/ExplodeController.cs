@@ -7,6 +7,7 @@ public class ExplodeController : MonoBehaviour
     public Animator animator;
     public GameObject player;
     public float radius = 7.5f;
+    bool damaged = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +21,12 @@ public class ExplodeController : MonoBehaviour
             // animator.Switch1 = true;
             if(animator != null){
                 animator.SetBool("Switch1",true);
-                player.GetComponent<healthScript>().health -= 10;
-                Debug.Log($"animing");
+                if(damaged = false)
+                {
+                    player.GetComponent<healthScript>().health -= 25;
+                    damaged = true;
+                }
+                Debug.Log($"boomed");
             }
         }
     }
