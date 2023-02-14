@@ -6,7 +6,7 @@ using TMPro;
 public class InvenDisplay : MonoBehaviour
 {
     public int indexNum;
-    public InvenData invenData;
+    public InvData invenData;
     public List<InvenImageIndex> invenImages = new List<InvenImageIndex>();
     public TMP_Text weightDisplay;
     void Start()

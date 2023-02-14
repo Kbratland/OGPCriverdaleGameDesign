@@ -15,33 +15,37 @@ public class DashScript : MonoBehaviour
     float eTime;
     bool dashing;
     bool grounded = true;
+    AudioSource m_AudioSource;
     public float speed;
     public float duration = 0.5f;
     public bool freeze;
     void Start()
     {
-
+        m_AudioSource = GetComponent<AudioSource>();
     }
 
     void Update()
     {
-        if(firstPersonController.isGrounded){
+        if (firstPersonController.isGrounded)
+        {
             grounded = true;
         }
-        if(Input.GetKeyDown(KeyCode.E) && !dashing && grounded)
+        if (Input.GetKeyDown(KeyCode.E) && !dashing && grounded)
         {
             eTime = 0;
+            m_AudioSource.Play();
             Dash();
             dashing = true;
             grounded = false;
         }
-        if(dashing)
+        if (dashing)
         {
             eTime += Time.deltaTime;
-            if( eTime > duration){
+            if (eTime > duration)
+            {
                 firstPersonController.playerCanMove = true;
                 firstPersonController.enableHeadBob = true;
-                if(freeze)
+                if (freeze)
                 {
                     rb.velocity = UnityEngine.Vector3.zero;
                 }
@@ -55,7 +59,7 @@ public class DashScript : MonoBehaviour
     {
         CreateDust();
         firstPersonController.playerCanMove = false;
-         firstPersonController.enableHeadBob = false;
+        firstPersonController.enableHeadBob = false;
         rb.useGravity = false;
         rb.AddForce(transform.forward * speed);
     }

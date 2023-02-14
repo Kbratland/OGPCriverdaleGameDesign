@@ -93,7 +93,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5092638432983235209, guid: 3812e6e7029c843d782525fdae0106c5, type: 3}
 --- !u!1 &1635312057650410825
@@ -189,7 +189,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7396963429056534661, guid: 3812e6e7029c843d782525fdae0106c5, type: 3}
 --- !u!1 &2203889476964608516
@@ -302,6 +302,7 @@ GameObject:
   - component: {fileID: 3183167887524053716}
   - component: {fileID: 6014726981204520428}
   - component: {fileID: -2017123505321142698}
+  - component: {fileID: 644519920}
   m_Layer: 0
   m_Name: spooder
   m_TagString: spider
@@ -357,8 +358,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 2372705985810946389}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 4
-  m_Speed: 50
+  m_Radius: 2.5
+  m_Speed: 3
   m_Acceleration: 20.6
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -395,7 +396,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -413,6 +414,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!208 &644519920
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2372705985810946389}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &3548365575520820734
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,7 +619,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8340305933257645789, guid: 3812e6e7029c843d782525fdae0106c5, type: 3}
 --- !u!1 &6990398003776336130

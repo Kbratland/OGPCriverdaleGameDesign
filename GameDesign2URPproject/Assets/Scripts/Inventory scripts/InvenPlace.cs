@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class InvenPlace : MonoBehaviour
 {
-    public InvenData invenData;
+    public InvData invenData;
     public InvenDisplay invenDisplay;
     // Start is called before the first frame update
     void Start()
     {
-        invenData = this.gameObject.GetComponent<InvenData>();
+        invenData = this.gameObject.GetComponent<InvData>();
     }
 
     // Update is called once per frame
@@ -22,9 +22,9 @@ public class InvenPlace : MonoBehaviour
         {
         invenDisplay.invenImages[invenData.itemCount].invenIcon = null;
         invenData.itemCount -= 1;
-        invenData.weightMax -= invenData.invenItems[invenData.invenItems.Count -1].gameObject.GetComponent<InvenItem>().weight;
+        invenData.weightMax -= invenData.invenItems[invenData.invenItems.Count -1].gameObject.GetComponent<InvenItem2>().weight;
         invenData.invenItems[invenData.invenItems.Count - 1].gameObject.SetActive(true);
-        invenData.invenItems[invenData.invenItems.Count -1].gameObject.GetComponent<InvenItem>().enabled = true;
+        invenData.invenItems[invenData.invenItems.Count -1].gameObject.GetComponent<InvenItem2>().enabled = true;
         Instantiate(invenData.invenItems[invenData.invenItems.Count - 1].itemPrefab, this.transform.position + this.transform.forward * 4, this.transform.rotation);
         invenData.invenItems.Remove(invenData.invenItems[invenData.invenItems.Count - 1]);
         }
@@ -33,12 +33,12 @@ public class InvenPlace : MonoBehaviour
      void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Item") && invenData.weightMax < 18f){
-            if(other.gameObject.GetComponent<InvenItem>().eTime >= 1)
+            if(other.gameObject.GetComponent<InvenItem2>().eTime >= 1)
             {
-            invenData.weightMax += other.gameObject.GetComponent<InvenItem>().weight;
+            invenData.weightMax += other.gameObject.GetComponent<InvenItem2>().weight;
             invenData.itemCount +=1;
-            invenData.invenItems.Add(other.gameObject.GetComponent<InvenItem>());
-            other.gameObject.GetComponent<InvenItem>().grabbed = true;
+            invenData.invenItems.Add(other.gameObject.GetComponent<InvenItem2>());
+            other.gameObject.GetComponent<InvenItem2>().grabbed = true;
             other.gameObject.SetActive(false);
             }
         }
