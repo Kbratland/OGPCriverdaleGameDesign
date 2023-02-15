@@ -8427,7 +8427,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 466706433}
   player: {fileID: 1209889178}
-  radius: 5
+  radius: 10
 --- !u!1001 &474330536
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16175,6 +16175,10 @@ PrefabInstance:
     - target: {fileID: 2988174065150276373, guid: 6cfefff0f974f42fd90bf582cf51276e, type: 3}
       propertyPath: delay
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2988174065150276373, guid: 6cfefff0f974f42fd90bf582cf51276e, type: 3}
+      propertyPath: started
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2988174065150276373, guid: 6cfefff0f974f42fd90bf582cf51276e, type: 3}
       propertyPath: Projectile
