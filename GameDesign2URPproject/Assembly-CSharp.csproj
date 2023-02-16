@@ -69,6 +69,7 @@
      <Compile Include="Assets/Scripts/Dialogue/DialogueScript.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+     <Compile Include="Assets/soldiertobuilding.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
@@ -93,7 +94,8 @@
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
      <Compile Include="Assets/Scripts/Dialogue/DialogueBase.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
-     <Compile Include="Assets/soldiertobuilding.cs" />
+     <Compile Include="Assets/Imported assets/BrokenVector/LowPolyFencePack/Scripts/DoorController.cs" />
+     <Compile Include="Assets/Imported assets/BrokenVector/LowPolyFencePack/Scripts/DoorToggle.cs" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Water_Shader_WebGl.shader" />
@@ -122,6 +124,7 @@
      <None Include="Assets/Imported assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
      <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Vegetation_Flowers_Shader_VS.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets/Imported assets/POLYGON city pack/Read_me.txt" />
      <None Include="Assets/Imported assets/SkySeries Freebie/Hdri setup.txt" />
      <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Rock_Shader.shader" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
