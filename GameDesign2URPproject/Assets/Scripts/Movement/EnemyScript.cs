@@ -16,7 +16,7 @@ public class EnemyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Vector3.Distance(transform.position, player.transform.position) <= 25)
+        if(Vector3.Distance(transform.position, player.transform.position) <= 35)
         {agent.destination = player.transform.position;}
     }
 }
