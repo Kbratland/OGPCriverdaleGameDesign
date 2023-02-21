@@ -24,7 +24,7 @@ public class Menu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("AlphaScene");
+        SceneManager.LoadScene("Scene 0 playtest");
     }
 
     public void GoMenu()

@@ -48,6 +48,7 @@
      <Compile Include="Assets/Scripts/GameItems/ExplodeController.cs" />
      <Compile Include="Assets/Scripts/Inventory scripts/inventorySlot.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
+     <Compile Include="Assets/SpiderSwitcher.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
      <Compile Include="Assets/Scripts/Inventory scripts/InvData.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
@@ -66,8 +67,10 @@
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
+     <Compile Include="Assets/Scripts/Dialogue/DialogueScript.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+     <Compile Include="Assets/soldiertobuilding.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
@@ -94,7 +97,7 @@
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
      <Compile Include="Assets/Scripts/Dialogue/DialogueBase.cs" />
      <Compile Include="Assets/Imported assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
-     <Compile Include="Assets/SpiderSwitcher.cs" />
+     <Compile Include="Assets/WalkController.cs" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/Imported assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/Imported assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Shaders/PT_Water_Shader_WebGl.shader" />

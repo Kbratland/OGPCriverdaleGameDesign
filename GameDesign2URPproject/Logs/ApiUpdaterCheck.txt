@@ -351,3 +351,33 @@ candidates check time : 30ms
 >>>>>>> origin/ari-branch-do-not-merge
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 2/17/2023 1:34:49 PM : Starting /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 861.972ms
+moved types parse time: 87ms
+candidates parse time : 1ms
+C# parse time         : 486ms
+candidates check time : 68ms
+console write time    : 5ms
+
+[api-updater (non-obsolete-error-filter)] 2/17/2023 1:35:21 PM : Starting /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 39.767ms
+moved types parse time: 39ms
+candidates parse time : 0ms
+C# parse time         : 172ms
+candidates check time : 30ms
+console write time    : 4ms
+
+[api-updater (non-obsolete-error-filter)] 2/17/2023 1:36:48 PM : Starting /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 41.373ms
+moved types parse time: 44ms
+candidates parse time : 1ms
+C# parse time         : 177ms
+candidates check time : 31ms
+console write time    : 4ms
+
