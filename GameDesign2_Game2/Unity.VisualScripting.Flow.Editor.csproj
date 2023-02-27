@@ -114,8 +114,8 @@
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Plugin\Migrations\Migration_Asset_to_Package.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Connections\UnitConnectionStyles.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Connections\ValueConnectionWidget.cs" />
-     <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Ports\ValueInputDefinitionInspector.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Framework\Control\SwitchOnEnumDescriptor.cs" />
+     <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Ports\ValueInputDefinitionInspector.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Framework\Codebase\CreateStructDescriptor.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Framework\Variables\UnifiedVariableUnitWidget.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\RuntimeGraphBase.cs" />
@@ -199,8 +199,8 @@
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Framework\Control\SwitchOnStringDescriptor.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Framework\Codebase\InvokeMemberDescriptor.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Framework\InputActionInspector.cs" />
-     <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_1_2.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Framework\Codebase\SetMemberOption.cs" />
+     <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_1_2.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Ports\UnitInputPortWidget.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Plugin\Changelogs\Changelog_1_2_0.cs" />
      <Compile Include="Packages\com.unity.visualscripting\Editor\VisualScripting.Flow\Ports\ValueOutputWidget.cs" />
@@ -447,28 +447,31 @@
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualScripting.YamlDotNet">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualScripting.IonicZip">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

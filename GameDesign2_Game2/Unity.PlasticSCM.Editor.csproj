@@ -189,8 +189,8 @@
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Tool\IsExeAvailable.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Views\IncomingChanges\Gluon\Errors\ErrorsListView.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Views\Diff\DiffTreeViewMenu.cs" />
-     <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\PlasticPlugin.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Views\Changesets\ChangesetsTab_Operations.cs" />
+     <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\PlasticPlugin.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\UI\EnumPopupSetting.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\CloudEditionWelcomeWindow.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\RepositoryListViewItem.cs" />
@@ -218,8 +218,8 @@
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Configuration\ChannelCertificateUiImpl.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\NewIncomingChanges.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Views\Diff\Dialogs\GetRestorePathDialog.cs" />
-     <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\MetaPath.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesTab.cs" />
+     <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\MetaPath.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\EnumExtensions.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\UI\DockEditorWindow.cs" />
      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\SwitchModeConfirmationDialog.cs" />
@@ -592,13 +592,13 @@
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/konnercovert-bratland/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2_Game2/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
