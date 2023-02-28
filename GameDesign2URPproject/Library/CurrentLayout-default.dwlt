@@ -43,7 +43,7 @@ MonoBehaviour:
     width: 2048
     height: 1014
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Game
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 800, y: 271}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 249
+  controlID: 87
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 67
+  controlID: 16
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 118
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 93
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -554,9 +554,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 148.1885, y: 48.64963, z: -734.4965}
+    m_Target: {x: 155.52441, y: 54.69723, z: -742.83936}
     speed: 2
-    m_Value: {x: 148.1885, y: 48.64963, z: -734.4965}
+    m_Value: {x: 155.52441, y: 54.69723, z: -742.83936}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -607,9 +607,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.057687093, y: -0.93361396, z: 0.17725115, w: 0.30597275}
   m_Size:
-    m_Target: 60.97927
+    m_Target: 54.701984
     speed: 2
-    m_Value: 60.97927
+    m_Value: 54.701984
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -661,10 +661,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 753}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 98f4ffffcc510000dc51000030590000
+      m_ExpandedIDs: c486ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -815,22 +815,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Blender
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Blender
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/akaganov25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject
+  m_LastProjectPath: /Users/jdarwich25/Documents/GitHub/OGPCriverdaleGameDesign/GameDesign2URPproject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ca610000
-    m_LastClickedID: 25034
-    m_ExpandedIDs: 000000005e610000ca610000ce61000040620000426200004c620000346800004e6b0000566b00005c6b000012a4000014a4000050a4000052a40000f2a5000000ca9a3b
+    m_SelectedIDs: 9a010100
+    m_LastClickedID: 65946
+    m_ExpandedIDs: 000000009a01010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -858,7 +858,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005e610000
+    m_ExpandedIDs: 000000009a010100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -885,7 +885,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000040920000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
