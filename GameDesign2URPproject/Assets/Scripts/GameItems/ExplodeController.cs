@@ -11,7 +11,7 @@ public class ExplodeController : MonoBehaviour
     bool started = false;
     int limit =0;
     float eTime = 0;
-    AudioSource audioSource;
+    public AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +30,7 @@ public class ExplodeController : MonoBehaviour
             if(animator != null){
                 started = true;
                 animator.SetBool("Switch1",true);
+                audioSource.Play();
                 if(damaged == false)
                 {
                     player.GetComponent<healthScript>().health -= 25;
